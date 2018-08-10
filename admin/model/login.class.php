@@ -15,7 +15,6 @@ class Restricted extends Database {
 		$result->execute($infos);
 		$exist = $result->rowCount($query);
 		return $exist;
-		print_r($exist);
 	}
 
 }
