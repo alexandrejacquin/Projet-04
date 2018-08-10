@@ -7,7 +7,7 @@ class Controller {
     private $_pathToView = './view/';
     private $_pathToModel = './model/';
 	
-	// Check if directories template, views & models exists
+	// Check if directories template exist
 	public function __construct($_pathToTemplate = null) {
 		
 		if ($_pathToTemplate !== null) {
